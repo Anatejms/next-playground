@@ -6,8 +6,6 @@ pipeline {
         stage('Setup') {
             steps {
                 sh 'node --version'
-                sh 'apt update'
-                sh 'apt install yarn'
                 sh 'yarn install'
             }
         }
