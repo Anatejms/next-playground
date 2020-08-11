@@ -6,7 +6,7 @@ pipeline {
         stage('Setup') {
             steps {
                 sh 'node --version'
-                sh 'npm install -g yarn'
+                sh 'sudo npm install -g yarn'
                 sh 'yarn install'
             }
         }
