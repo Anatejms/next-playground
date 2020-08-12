@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'node:14-alpine'
-            label 'linux'
+            label 'windows'
         }
     }
     stages {
